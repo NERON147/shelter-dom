@@ -201,8 +201,9 @@ $color-light-s: #fafafa;
                     transition: box-shadow 0.3s;
                 }
                 li {
-                    margin-bottom: 40px;
+                    margin-bottom: 30px;
                     width: fit-content;
+                    height: 40px !important;
                 }
             }
         }
@@ -357,11 +358,12 @@ $color-light-s: #fafafa;
                 width: 260px;
             }
             .donation__wrapper__text {
-                margin-left: 30px;
+                margin-left: 0 !important;
                 max-width: 380px;
                 display: flex;
                 justify-content: center;
                 flex-direction: column;
+                align-items: center;
                 text-align: center;
                 .donation__wrapper__text__you {
                     font-size: 25px;
@@ -373,6 +375,7 @@ $color-light-s: #fafafa;
                     font-size: 15px;
                 }
                 .donation__wrapper__number {
+                    
                     font-size: 15px;
                     line-height: 110%;
                     letter-spacing: 0.9px;
