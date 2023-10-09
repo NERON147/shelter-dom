@@ -39,12 +39,10 @@ const data = reactive({
             slidesPerView: 1,
             spaceBetween: 0
         },
-        // when window width is >= 480px
         768: {
             slidesPerView: 2,
             spaceBetween: 40
         },
-        // when window width is >= 640px
         1080: {
             slidesPerView: 3,
             spaceBetween: 90
