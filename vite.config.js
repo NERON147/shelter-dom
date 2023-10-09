@@ -8,8 +8,8 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: '/shelter-dom/',
   resolve: {
-    base: '/shelter-dom/',
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
