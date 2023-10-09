@@ -487,6 +487,10 @@ body {
           line-height: 115%; /* 23px */
           letter-spacing: 1.2px;
           color: $color-dark-l;
+          text-align: center;
+          align-items: center;
+          display: flex;
+          justify-content: center;
         }
       }
       .donation__wrapper__descr {
